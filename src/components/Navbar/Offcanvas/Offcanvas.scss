@@ -1,0 +1,49 @@
+.nav__offcanvas {
+  .nav__offCanvasIcon {
+    cursor: pointer;
+    background-color: #464646;
+  }
+
+  .nav__offcanvasList {
+    li {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      font-size: 30px;
+      font-weight: bold;
+      margin: 20px 0;
+      padding: 0 0 0 80px;
+
+      span:first-child {
+        font-size: 17px;
+        font-weight: lighter;
+        margin-right: 10px;
+        color: #ccc;
+      }
+    }
+
+    li:after {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      left: 0;
+      width: 100%;
+      height: 10px;
+      background-color: #ccc;
+      transition: all 0.3s ease-out;
+      transform: translateX(-100%);
+    }
+
+    li:hover:after {
+      transform: translateX(-70%);
+      background-color: #0fb;
+    }
+
+    .nav__offcanvasActive:after {
+      transform: translateX(-70%);
+      background-color: #0fb;
+    }
+  }
+}

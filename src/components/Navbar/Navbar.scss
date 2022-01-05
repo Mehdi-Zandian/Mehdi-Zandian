@@ -1,0 +1,37 @@
+.nav {
+  z-index: 200;
+  background: rgba(33, 33, 33, 0.7);
+
+  .nav__logo {
+    cursor: pointer;
+    max-width: 95px;
+  }
+
+  .nav__items {
+    li {
+      text-align: center;
+      color: #ffff;
+      font-weight: bold;
+      transition: all 0.3s;
+      border: 1px solid transparent;
+      cursor: pointer;
+
+      &:hover {
+        border-bottom: 1px solid #0fb;
+      }
+    }
+
+    .nav__itemsActive {
+      color: #333;
+      font-weight: normal;
+      background: #0fb;
+      border-radius: 30px;
+      box-shadow: 0 0 7px transparent;
+
+      &:hover {
+        color: #333;
+        box-shadow: 0 0 7px #0fb;
+      }
+    }
+  }
+}
