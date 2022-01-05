@@ -3,7 +3,6 @@ import React from "react";
 function Portfolio() {
   return (
     <div>
-      <h2>HomePage</h2>
       {/* Home */}
       {/* About */}
       {/* Projects */}

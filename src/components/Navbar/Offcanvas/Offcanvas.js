@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // animation
 import Fade from "react-reveal/Fade";
 // UI
@@ -6,9 +6,12 @@ import "./Offcanvas.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Offcanvas() {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="nav__offcanvas d-md-none d-block">
       <div
+        onClick={() => setShow(true)}
         data-bs-toggle="offcanvas"
         data-bs-target="#nav__offcanvas"
         aria-controls="nav__offcanvas"
@@ -26,6 +29,7 @@ function Offcanvas() {
       >
         <div className="offcanvas-header d-flex justify-content-end">
           <button
+            onClick={() => setShow(false)}
             type="button"
             className="shadow-none border-none btn-close fs-5 mx-5 my-4 btn-close-white text-reset"
             data-bs-dismiss="offcanvas"
@@ -36,7 +40,7 @@ function Offcanvas() {
           style={{ overflowX: "hidden" }}
           className="offcanvas-body d-flex justify-content-center"
         >
-          <Fade left cascade>
+          <Fade left cascade when={show}>
             <ul className="nav__offcanvasList d-flex flex-column align-items-center list-unstyled w-100">
               <li>
                 <span>01</span>

@@ -9,6 +9,7 @@
 
   .nav__items {
     li {
+      position: relative;
       text-align: center;
       color: #ffff;
       font-weight: bold;
@@ -16,9 +17,20 @@
       border: 1px solid transparent;
       cursor: pointer;
 
-      &:hover {
-        border-bottom: 1px solid #0fb;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -15%;
+        left: 0;
+        height: 2px;
+        width: 20px;
+        transition: all 0.3s;
+        background-color: #0fb;
       }
+    }
+
+    li:hover:after {
+      width: 100%;
     }
 
     .nav__itemsActive {
@@ -27,6 +39,11 @@
       background: #0fb;
       border-radius: 30px;
       box-shadow: 0 0 7px transparent;
+
+      &:after {
+        width: 0;
+        height: 0;
+      }
 
       &:hover {
         color: #333;
