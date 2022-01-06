@@ -31,7 +31,7 @@ function Offcanvas() {
         <div className="offcanvas-header d-flex justify-content-between align-items-center">
           <Fade top when={show}>
             <div className="d-flex align-items-center">
-              <img className="col-2" src={logo} alt="Logo" />
+              <img style={{ maxWidth: "35px" }} src={logo} alt="Logo" />
               <small>Mehdi Zandian</small>
             </div>
           </Fade>
