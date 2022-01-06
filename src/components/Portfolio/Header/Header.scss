@@ -1,0 +1,17 @@
+.header {
+  padding-top: 100px;
+
+  .header__skill {
+    color: #0fb;
+    img {
+      max-width: 25px;
+    }
+  }
+
+  .header__btn {
+    background-color: #0fb;
+    font-size: 17px;
+    padding: 10px 80px;
+    border-radius: 25px;
+  }
+}

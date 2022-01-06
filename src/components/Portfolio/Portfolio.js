@@ -1,9 +1,9 @@
-import React from "react";
+import Header from "./Header/Header";
 
 function Portfolio() {
   return (
     <div>
-      {/* Home */}
+      <Header />
       {/* About */}
       {/* Projects */}
       {/* Skills */}

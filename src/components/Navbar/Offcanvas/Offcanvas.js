@@ -32,7 +32,7 @@ function Offcanvas() {
           <Fade top when={show}>
             <div className="d-flex align-items-center">
               <img style={{ maxWidth: "35px" }} src={logo} alt="Logo" />
-              <small>Mehdi Zandian</small>
+              <small>Mahdi Zandian</small>
             </div>
           </Fade>
           <button
