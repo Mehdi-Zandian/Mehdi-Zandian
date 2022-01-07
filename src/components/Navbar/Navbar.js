@@ -7,7 +7,7 @@ import logo from "../../assets/logo/logo.png";
 
 function Navbar() {
   return (
-    <div className="nav position-sticky top-0 start-0">
+    <div className="nav position-sticky top-0">
       <div className="container d-flex align-items-center justify-content-between">
         <Fade>
           <img src={logo} className="nav__logo" alt="Logo" />

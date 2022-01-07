@@ -8,7 +8,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="app" style={{ overflowX: "hidden" }}>
+    <div className="app">
       <Router>
         <Navbar />
 
