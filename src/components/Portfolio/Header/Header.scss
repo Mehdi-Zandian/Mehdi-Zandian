@@ -1,0 +1,92 @@
+.header {
+  position: relative;
+  padding-top: 100px;
+
+  .header__skill {
+    color: #0fb;
+    img {
+      max-width: 25px;
+    }
+  }
+
+  .header__btn {
+    background-color: #0fb;
+    font-size: 17px;
+    padding: 10px 65px;
+    border-radius: 25px;
+    box-shadow: 0 0 7px transparent;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #333;
+      box-shadow: 0 0 7px #0fb;
+    }
+  }
+
+  .header__ide {
+    // overflow-y: scroll;
+    font-size: 14px;
+    width: 400px;
+    height: 350px;
+
+    .header__ideHeader {
+      div {
+        margin: 0 3px;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    .header__ideLine {
+      margin-bottom: 7px;
+      color: #bbb;
+
+      .ide__num {
+        color: #888;
+      }
+
+      .ide__div {
+        color: #fd5b5b;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    .header__ide {
+      overflow: scroll;
+      width: 400px;
+      min-width: 308px;
+      height: 305px;
+
+      .header__ideHeader {
+        div {
+          margin: 0 3px;
+          border-radius: 50%;
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      .header__ideLine {
+        font-size: 11px;
+        margin-bottom: 7px;
+        color: #bbb;
+
+        .ide__num {
+          color: #888;
+        }
+
+        .ide__div {
+          color: #fd5b5b;
+        }
+
+        .ide__numCondition {
+          margin-right: 35px !important;
+        }
+      }
+    }
+  }
+}

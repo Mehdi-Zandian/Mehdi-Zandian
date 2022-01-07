@@ -1,10 +1,11 @@
-import React from "react";
+import Header from "./Header/Header";
+import AboutMe from "./AboutMe/AboutMe";
 
 function Portfolio() {
   return (
     <div>
-      {/* Home */}
-      {/* About */}
+      <Header />
+      <AboutMe />
       {/* Projects */}
       {/* Skills */}
       {/* Contact Me */}

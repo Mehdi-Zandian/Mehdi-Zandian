@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 // UI
 import "./Offcanvas.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
+import logo from "../../../assets/logo/logo.png";
 
 function Offcanvas() {
   const [show, setShow] = useState(false);
@@ -27,7 +28,13 @@ function Offcanvas() {
         id="nav__offcanvas"
         aria-labelledby="nav__offcanvasLabel"
       >
-        <div className="offcanvas-header d-flex justify-content-end">
+        <div className="offcanvas-header d-flex justify-content-between align-items-center">
+          <Fade top when={show}>
+            <div className="d-flex align-items-center">
+              <img style={{ maxWidth: "35px" }} src={logo} alt="Logo" />
+              <small>Mahdi Zandian</small>
+            </div>
+          </Fade>
           <button
             onClick={() => setShow(false)}
             type="button"

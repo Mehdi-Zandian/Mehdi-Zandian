@@ -52,3 +52,11 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .nav {
+    .nav__logo {
+      max-width: 75px;
+    }
+  }
+}
