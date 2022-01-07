@@ -42,7 +42,7 @@ function MyIDE() {
               className="d-inline"
               steps={["Mahdi Zandian", 3000, "A Developer", 2000]}
               loop={Infinity}
-              wrapper="p" 
+              wrapper="p"
             />
             {"</"}
             <span className="ide__div">{"h1"}</span>
@@ -52,7 +52,7 @@ function MyIDE() {
           <div className="header__ideLine">
             <span className="ide__num me-4">4</span>
             {"<"}
-            <span className="ide__div">{"div"}</span>
+            <span className="ide__div">{"h6"}</span>
             {">"}
             FRONT-END WEB DEVELOPERT
             <img
@@ -62,14 +62,14 @@ function MyIDE() {
               alt="Technologist Man"
             />
             {"</"}
-            <span className="ide__div">{"div"}</span>
+            <span className="ide__div">{"h6"}</span>
             {">"}
           </div>
 
           <div className="header__ideLine">
             <span className="ide__num me-4">5</span>
             {"<"}
-            <span className="ide__div">{"div"}</span>
+            <span className="ide__div">{"p"}</span>
             {">"}
           </div>
 
@@ -79,30 +79,30 @@ function MyIDE() {
           </div>
 
           <div className="header__ideLine ">
-            <span className="ide__num ide__numCondition me-5">5</span>
+            <span className="ide__num ide__numCondition me-5">7</span>
             development skills based in IRAN, TEHRAN.
           </div>
 
           <div className="header__ideLine">
-            <span className="ide__num me-4">7</span>
+            <span className="ide__num me-4">8</span>
             {"</"}
-            <span className="ide__div">{"div"}</span>
+            <span className="ide__div">{"p"}</span>
             {">"}
           </div>
 
           <div className="header__ideLine">
-            <span className="ide__num me-4">8</span>
+            <span className="ide__num me-4">9</span>
             {"<"}
-            <span className="ide__div">{"butoon"}</span>
+            <span className="ide__div">{"button"}</span>
             {">"}
             Hire Me
             {"</"}
-            <span className="ide__div">{"butoon"}</span>
+            <span className="ide__div">{"button"}</span>
             {">"}
           </div>
 
           <div className="header__ideLine">
-            <span className="ide__num me-3">9</span>
+            <span className="ide__num me-3">10</span>
             {"</"}
             <span className="ide__div">{"div"}</span>
             {">"}
