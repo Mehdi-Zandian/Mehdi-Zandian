@@ -116,12 +116,6 @@
   .myProj {
     .myProj__body {
       .myProj__bodyItem {
-        &:hover {
-          button:after {
-            width: 100px !important;
-          }
-        }
-
         .myProj__itemInfo {
           button {
             font-size: 13px;
@@ -129,10 +123,9 @@
 
           button:after {
             content: "More Detail";
-            width: 100px;
-            padding-right: 8px;
-            font-size: 13px;
-            opacity: 1;
+            width: 100px !important;
+            padding-right: 8px !important;
+            opacity: 1 !important;
           }
         }
       }
