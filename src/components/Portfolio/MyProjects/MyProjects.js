@@ -1,6 +1,6 @@
 // UI
 import "./MyProject.scss";
-import { FaInfo } from "react-icons/fa";
+import { FaInfo, FaCheck } from "react-icons/fa";
 import s1 from "../../../assets/projects/amazon/S1.jpg";
 
 function MyProjects() {
@@ -21,7 +21,13 @@ function MyProjects() {
           <img src={s1} className="" />
           <div className="myProj__itemInfo d-flex flex-column align-items-start justify-content-between p-3">
             <div>
-              <h4 className="fw-bold">✔Amazon Clone</h4>
+              <h4 className="fw-bold d-flex align-items-center">
+                <FaCheck
+                  style={{ fontSize: "20px", color: "#70e000" }}
+                  className="me-1"
+                />{" "}
+                Amazon Clone
+              </h4>
               <p style={{ fontSize: "15px" }}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                 nesciunt dignissimos perspiciatis. Expedita aliquid tenetur, quo
