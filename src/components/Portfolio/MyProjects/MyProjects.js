@@ -40,7 +40,7 @@ function MyProjects() {
               </div>
             </div>
 
-            <button className="p-2 d-flex align-items-center">
+            <button className="d-flex align-items-center">
               <FaInfo />
             </button>
           </div>

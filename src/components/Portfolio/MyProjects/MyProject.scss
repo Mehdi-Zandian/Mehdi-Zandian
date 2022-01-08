@@ -70,6 +70,7 @@
           background-color: rgba(22, 43, 81, 1);
           border-radius: 10px;
           font-size: 14px;
+          padding: 8px;
 
           &:after {
             content: "";
@@ -83,9 +84,8 @@
             width: 0px;
             z-index: -1;
             display: flex;
-            padding-right: 20px;
-            align-items: center;
-            justify-content: right;
+            align-items: center !important;
+            justify-content: center !important;
             border-radius: 10px;
             white-space: nowrap !important;
           }
