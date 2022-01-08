@@ -12,13 +12,15 @@ import implement from "../../../assets/workflowIcons/implement.svg";
 function WorkFlow() {
   return (
     <div className="workflow container d-flex flex-column align-items-center">
-      <div>
-        <div className="workflow__header d-flex align-items-center justify-content-start">
-          Work Flow
-          <span className="ms-2"></span>
+      <Fade bottom>
+        <div>
+          <div className="workflow__header d-flex align-items-center justify-content-start">
+            Work Flow
+            <span className="ms-2"></span>
+          </div>
+          <h3 className="fw-bold mt-3">My Work Process</h3>
         </div>
-        <h3 className="fw-bold mt-3">My Work Process</h3>
-      </div>
+      </Fade>
 
       <Zoom cascade>
         <div className="d-flex flex-wrap justify-content-center gap-4 mt-5">
