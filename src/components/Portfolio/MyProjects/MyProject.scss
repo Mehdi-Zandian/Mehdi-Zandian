@@ -118,13 +118,12 @@
       .myProj__bodyItem {
         .myProj__itemInfo {
           button {
-            font-size: 13px;
+            font-size: 13px !important;
           }
 
           button:after {
-            content: "More Detail";
-            width: 100px !important;
-            padding-right: 8px !important;
+            content: "More Detail" !important;
+            width: 120px !important;
             opacity: 1 !important;
           }
         }
