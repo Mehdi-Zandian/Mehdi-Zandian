@@ -76,6 +76,7 @@
     transition: all 0.5s;
 
     &:hover {
+      z-index: 2;
       transform: translateY(-8px);
       background: linear-gradient(
         0deg,
@@ -83,7 +84,7 @@
         rgba(0, 166, 122, 1) 38%,
         rgba(0, 255, 187, 1) 100%
       );
-      box-shadow: 0 1.1rem 3rem #0fb;
+      box-shadow: 0 0.7rem 3rem #0fb;
     }
 
     h5 {

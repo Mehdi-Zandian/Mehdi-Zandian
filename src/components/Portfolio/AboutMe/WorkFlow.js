@@ -1,6 +1,7 @@
 import React from "react";
 // animation
 import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 // UI
 import idea from "../../../assets/workflowIcons/work-idea.svg";
 import sketch from "../../../assets/workflowIcons/work-sketch.svg";
