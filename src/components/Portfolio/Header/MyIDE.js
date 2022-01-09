@@ -54,7 +54,7 @@ function MyIDE() {
             {"<"}
             <span className="ide__div">{"h6"}</span>
             {">"}
-            FRONT-END WEB DEVELOPERT
+            FRONT-END WEB DEVELOPER
             <img
               className="ms-1"
               style={{ maxWidth: "20px" }}

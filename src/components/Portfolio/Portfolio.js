@@ -1,12 +1,13 @@
 import Header from "./Header/Header";
 import AboutMe from "./AboutMe/AboutMe";
+import MyProjects from "./MyProjects/MyProjects";
 
 function Portfolio() {
   return (
     <div>
       <Header />
       <AboutMe />
-      {/* Projects */}
+      <MyProjects />
       {/* Skills */}
       {/* Contact Me */}
     </div>

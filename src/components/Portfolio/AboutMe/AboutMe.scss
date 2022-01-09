@@ -1,5 +1,5 @@
 .aboutMe {
-  padding-top: 100px;
+  margin-top: 200px;
 
   .aboutMe__img {
     width: 500px;
@@ -47,6 +47,52 @@
           box-shadow: 0 0 7px #0fb;
         }
       }
+    }
+  }
+}
+
+.workflow {
+  margin: 200px auto 200px auto;
+
+  .workflow__header {
+    color: #0fb;
+
+    span {
+      border-radius: 5px;
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #0fb;
+    }
+  }
+
+  .workflow__item {
+    cursor: pointer;
+    padding: 30px 20px 20px 15px;
+    box-shadow: 0 1.6rem 3.6rem rgba(0, 0, 0, 0.2);
+    background: #2b2b2b;
+    width: 200px;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+    &:hover {
+      z-index: 2;
+      transform: translateY(-8px);
+      background: linear-gradient(
+        0deg,
+        rgba(0, 129, 94, 1) 0%,
+        rgba(0, 166, 122, 1) 38%,
+        rgba(0, 255, 187, 1) 100%
+      );
+      box-shadow: 0 0 3rem #0fb;
+    }
+
+    h5 {
+      font-weight: bolder;
+    }
+    img {
+      width: 22px;
+      margin-bottom: 15px;
     }
   }
 }

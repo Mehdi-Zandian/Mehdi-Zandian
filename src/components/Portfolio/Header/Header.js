@@ -12,7 +12,7 @@ import "./Header.scss";
 function Header() {
   return (
     <div style={{ backgroundColor: "#212121", paddingBottom: "100px" }}>
-      <div className="header mb-5 container d-flex flex-column flex-lg-row align-items-lg-center">
+      <div className="header container d-flex flex-column flex-lg-row align-items-lg-center">
         <Fade bottom cascade>
           <div className="d-flex col-12 col-lg-7 flex-column justify-content-center align-items-lg-start align-items-center">
             <span>HI THERE 👋 I'M</span>
@@ -30,7 +30,7 @@ function Header() {
               <img className="ms-1" src={emoji} alt="Technologist Man" />
             </h6>
 
-            <p className="my-4 text-center text-lg-start col-10 col-md-6 col-lg-4">
+            <p className="my-4 text-center text-lg-start col-10 col-md-6 col-lg-7">
               I’m a professional Web Developer with front end development skills
               based in <span style={{ color: "#0fb" }}>IRAN, TEHRAN</span>.
             </p>
