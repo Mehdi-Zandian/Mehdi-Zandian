@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Amazon Clone",
+      "about": "It is my Amazon Clone with customized features and UI. This Clone contains the Checkout page and Order List as well. Therefore, you can add your favorite products to the basket. Also, you can sign up by your google account to have a better experience on my Clone. This project uses Fake Store API for fetching products and Context API to manage states.",
+      "banner": "dataAssets/projects/amazon/S1.jpg",
+      "tech": [
+        "ReactJS",
+        "Context API",
+        "Auth0",
+        "Bootstrap",
+        "SwiperJS",
+        "SASS",
+        "CSS Grid"
+      ],
+      "techPics": ["dataAssets/techPics/react.png"],
+      "screenshots": ["dataAssets/projects/amazon/S1.jpg"],
+      "links": [
+        "https://amazon-clone-mehdi-zandian.vercel.app/",
+        "https://github.com/Mehdi-Zandian/amazon-clone"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Amazon Clone",
+      "about": "It is my Amazon Clone with customized features and UI. This Clone contains the Checkout page and Order List as well. Therefore, you can add your favorite products to the basket. Also, you can sign up by your google account to have a better experience on my Clone. This project uses Fake Store API for fetching products and Context API to manage states.",
+      "banner": "dataAssets/projects/amazon/S1.jpg",
+      "tech": [
+        "ReactJS",
+        "Context API",
+        "Auth0",
+        "Bootstrap",
+        "SwiperJS",
+        "SASS",
+        "CSS Grid"
+      ],
+      "techPics": ["dataAssets/techPics/react.png"],
+      "screenshots": ["dataAssets/projects/amazon/S1.jpg"],
+      "links": [
+        "https://amazon-clone-mehdi-zandian.vercel.app/",
+        "https://github.com/Mehdi-Zandian/amazon-clone"
+      ]
+    }
+  ]
+}

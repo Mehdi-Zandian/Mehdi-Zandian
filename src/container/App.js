@@ -14,7 +14,7 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Portfolio />} />
-          <Route path="/detail" element={<ProjectDetail />} />
+          <Route path="/detail/:id/" element={<ProjectDetail />} />
           {/* 404 Page */}
         </Routes>
 
