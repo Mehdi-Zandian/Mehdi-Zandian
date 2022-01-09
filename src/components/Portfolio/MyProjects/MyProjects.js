@@ -76,7 +76,7 @@ function MyProjects() {
                     <p style={{ fontSize: "15px" }}>
                       {truncate(proj?.about, 130)}
                     </p>
-                    <div className="tags">
+                    <div className="tags d-flex justify-content-start align-items-center flex-wrap gap-1">
                       {proj?.tech.slice(0, 5).map((t) => (
                         <span>{t}</span>
                       ))}
