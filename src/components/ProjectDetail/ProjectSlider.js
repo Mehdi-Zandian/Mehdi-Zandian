@@ -11,11 +11,12 @@ function ProjectSlider({ data }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
+    speed: 500,
   };
 
   return (
     <div className="detail__slider">
-      <Slider style={{ height: "20em" }} {...settings}>
+      <Slider {...settings}>
         {data?.screenshotLarge.map((pic) => {
           return (
             <div style={{ height: "100%" }}>
@@ -23,8 +24,6 @@ function ProjectSlider({ data }) {
                 style={{
                   width: "auto",
                   height: "100%",
-                  objectFit: "cover",
-                  objectPosition: "center",
                 }}
                 src={pic}
                 alt="Project Screenshot"
