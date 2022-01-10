@@ -8,19 +8,20 @@ function ProjectSlider({ data }) {
     dots: true,
     infinite: true,
     centerMode: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
     variableWidth: true,
     speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
     <div className="detail__slider">
       <Slider {...settings}>
-        {data?.screenshotLarge.map((pic) => {
+        {data?.screenshotLarge.map((pic, i) => {
           return (
-            <div style={{ height: "100%" }}>
+            <div key={i} style={{ height: "100%" }}>
               <img
+                loading="lazy"
                 style={{
                   width: "auto",
                   height: "100%",
@@ -31,12 +32,12 @@ function ProjectSlider({ data }) {
             </div>
           );
         })}
-        {data?.screenshotSmall.map((pic) => {
+        {data?.screenshotSmall.map((pic, i) => {
           return (
-            <div style={{ width: 177.5, height: "100px" }}>
+            <div key={i} style={{ height: "100%" }}>
               <img
+                loading="lazy"
                 style={{
-                  width: "100%",
                   height: "100%",
                   objectFit: "cover",
                   objectPosition: "center",

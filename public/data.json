@@ -14,7 +14,12 @@
         "SASS",
         "CSS Grid"
       ],
-      "techPic": ["../dataAssets/techPics/react.png"],
+      "techPic": [
+        "../dataAssets/techPics/react.png",
+        "../dataAssets/techPics/bootstrap.png",
+        "../dataAssets/techPics/auth0.png",
+        "../dataAssets/techPics/sass.png"
+      ],
       "screenshotLarge": [
         "../dataAssets/projects/amazon/S1.jpg",
         "../dataAssets/projects/amazon/S1.jpg",
