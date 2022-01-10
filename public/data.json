@@ -14,8 +14,21 @@
         "SASS",
         "CSS Grid"
       ],
-      "techPics": ["dataAssets/techPics/react.png"],
-      "screenshots": ["dataAssets/projects/amazon/S1.jpg"],
+      "techPic": ["../dataAssets/techPics/react.png"],
+      "screenshotLarge": [
+        "../dataAssets/projects/amazon/S1.jpg",
+        "../dataAssets/projects/amazon/S1.jpg",
+        "../dataAssets/projects/amazon/S1.jpg",
+        "../dataAssets/projects/amazon/S1.jpg",
+        "../dataAssets/projects/amazon/S1.jpg"
+      ],
+      "screenshotSmall": [
+        "../dataAssets/projects/amazon/SM1.jpg",
+        "../dataAssets/projects/amazon/SM1.jpg",
+        "../dataAssets/projects/amazon/SM1.jpg",
+        "../dataAssets/projects/amazon/SM1.jpg",
+        "../dataAssets/projects/amazon/SM1.jpg"
+      ],
       "links": [
         "https://amazon-clone-mehdi-zandian.vercel.app/",
         "https://github.com/Mehdi-Zandian/amazon-clone"
@@ -35,8 +48,9 @@
         "SASS",
         "CSS Grid"
       ],
-      "techPics": ["dataAssets/techPics/react.png"],
-      "screenshots": ["dataAssets/projects/amazon/S1.jpg"],
+      "techPic": ["../dataAssets/techPics/react.png"],
+      "screenshotLarge": ["../dataAssets/projects/amazon/S1.jpg"],
+      "screenshotSmall": ["../dataAssets/projects/amazon/SM1.jpg"],
       "links": [
         "https://amazon-clone-mehdi-zandian.vercel.app/",
         "https://github.com/Mehdi-Zandian/amazon-clone"

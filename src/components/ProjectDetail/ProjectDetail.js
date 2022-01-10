@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import ProjectSlider from "./ProjectSlider";
 // UI
 import "./ProjectDetail.scss";
 
@@ -34,14 +35,17 @@ function ProjectDetail() {
   return (
     <div>
       {data.length !== 0 ? (
-        <h2>
-          <li>{data?.name}</li>
-          <li>{data?.about}</li>
-          <li>Detail</li>
-          <li>Detail</li>
-          <li>Detail</li>
-          <li>Detail</li>
-        </h2>
+        <div className="detail">
+          <h1 className="container detail__header mx-auto fw-bolder display-3 text-center my-5">
+            {data?.name} Website
+          </h1>
+
+          <div>
+            <ProjectSlider data={data} />
+
+            <div className="container">Body</div>
+          </div>
+        </div>
       ) : (
         <div className="loader__wrapper w-100 d-flex justify-content-center align-items-center position-fixed top-0 start-0">
           <span className="loader"></span>
