@@ -48,7 +48,6 @@ function ProjectSlider({ data }) {
           return (
             <div className="slide-lg" key={i} style={{ height: "100%" }}>
               <img
-                loading="lazy"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -63,7 +62,6 @@ function ProjectSlider({ data }) {
           return (
             <div className="slide-sm" key={i} style={{ height: "100%" }}>
               <img
-                loading="lazy"
                 style={{
                   width: "100%",
                   height: "100%",
