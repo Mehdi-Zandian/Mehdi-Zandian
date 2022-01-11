@@ -61,16 +61,18 @@
       }
 
       .slide-lg {
+        width: 572px !important;
         max-width: 572px !important;
       }
 
       .slide-sm {
+        width: 180px !important;
         max-width: 180px !important;
       }
 
       .image__loader {
-        width: 100%;
-        height: 100%;
+        width: 572px !important;
+        height: 20em !important;
         background: linear-gradient(0.25turn, transparent, #fff, transparent),
           linear-gradient(#ddd, #ddd), linear-gradient(#ddd, #ddd),
           linear-gradient(#ddd, #ddd);
@@ -295,6 +297,16 @@
         .slick-prev {
           top: 115px;
           left: 5px;
+        }
+
+        .slick-slide {
+          .slide-lg {
+            width: 375px !important;
+          }
+
+          .slide-sm {
+            width: 130px !important;
+          }
         }
       }
     }
