@@ -10,8 +10,8 @@ function ProjectSlider({ data }) {
     centerMode: true,
     variableWidth: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -50,7 +50,7 @@ function ProjectSlider({ data }) {
               <img
                 loading="lazy"
                 style={{
-                  width: "auto",
+                  width: "100%",
                   height: "100%",
                 }}
                 src={pic}
@@ -65,7 +65,7 @@ function ProjectSlider({ data }) {
               <img
                 loading="lazy"
                 style={{
-                  width: "auto",
+                  width: "100%",
                   height: "100%",
                 }}
                 src={pic}
