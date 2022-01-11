@@ -12,7 +12,7 @@ function ProjectSlider({ data }) {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    initialSlide: 0,
+    initialSlide: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -61,7 +61,7 @@ function ProjectSlider({ data }) {
         })}
         {data?.screenshotSmall.map((pic, i) => {
           return (
-            <div key={i} style={{ height: "100%" }}>
+            <div className="slide-sm" key={i} style={{ height: "100%" }}>
               <img
                 loading="lazy"
                 style={{

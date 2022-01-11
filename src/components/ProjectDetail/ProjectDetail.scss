@@ -59,6 +59,10 @@
           object-position: top !important;
         }
       }
+
+      .slide-sm {
+        max-width: 180px !important;
+      }
     }
     .slick-active.slick-center {
       opacity: 1;
@@ -282,6 +286,10 @@
         .slick-slide {
           div {
             max-width: 375px !important;
+          }
+
+          .slide-sm {
+            max-width: 130px !important;
           }
         }
       }
