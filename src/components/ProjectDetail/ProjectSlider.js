@@ -46,7 +46,7 @@ function ProjectSlider({ data }) {
       <Slider {...settings}>
         {data?.screenshotLarge.map((pic, i) => {
           return (
-            <div key={i} style={{ height: "100%" }}>
+            <div className="slide-lg" key={i} style={{ height: "100%" }}>
               <img
                 loading="lazy"
                 style={{
