@@ -1,6 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// lazy load
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function ProjectSlider({ data }) {
   const settings = {
@@ -47,13 +49,12 @@ function ProjectSlider({ data }) {
         {data?.screenshotLarge.map((pic, i) => {
           return (
             <div className="slide-lg" key={i} style={{ height: "100%" }}>
-              <img
-                style={{
-                  width: "100%",
-                  height: "100%",
-                }}
+              <LazyLoadImage
+                alt={"Project Screenshot"}
                 src={pic}
-                alt="Project Screenshot"
+                style={{ height: "100%", width: "100%" }}
+                placeholderSrc={<span className="image__loader"></span>}
+                placeholder={<span className="image__loader"></span>}
               />
             </div>
           );
@@ -61,13 +62,12 @@ function ProjectSlider({ data }) {
         {data?.screenshotSmall.map((pic, i) => {
           return (
             <div className="slide-sm" key={i} style={{ height: "100%" }}>
-              <img
-                style={{
-                  width: "100%",
-                  height: "100%",
-                }}
+              <LazyLoadImage
+                alt={"Project Screenshot"}
                 src={pic}
-                alt="Project Screenshot"
+                style={{ height: "100%", width: "100%" }}
+                placeholderSrc={<span className="image__loader"></span>}
+                placeholder={<span className="image__loader"></span>}
               />
             </div>
           );
