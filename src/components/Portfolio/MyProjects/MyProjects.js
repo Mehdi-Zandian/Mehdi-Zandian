@@ -59,11 +59,7 @@ function MyProjects() {
                 to={`/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >
-                <img
-                  src={`${proj?.banner}`}
-                  loading="lazy"
-                  alt="Project Photo"
-                />
+                <img src={`${proj?.banner}`} alt=" " />
                 <div className="myProj__itemInfo d-flex flex-column align-items-start justify-content-between p-3">
                   <div>
                     <h4 className="fw-bold d-flex align-items-center">
@@ -74,11 +70,11 @@ function MyProjects() {
                       {proj?.name}
                     </h4>
                     <p style={{ fontSize: "15px" }}>
-                      {truncate(proj?.about, 130)}
+                      {truncate(proj?.about[0], 130)}
                     </p>
                     <div className="tags d-flex justify-content-start align-items-center flex-wrap gap-1">
-                      {proj?.tech.slice(0, 5).map((t) => (
-                        <span>{t}</span>
+                      {proj?.tech.slice(0, 5).map((t, i) => (
+                        <span key={i}>{t}</span>
                       ))}
                       <span>...</span>
                     </div>
