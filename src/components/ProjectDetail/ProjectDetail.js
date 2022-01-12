@@ -64,7 +64,9 @@ function ProjectDetail() {
             >
               <Fade>
                 <div className="detail__about">
-                  <p>{data?.about}</p>
+                  {data?.about.map((para, i) => {
+                    return <p key={i}>{para}</p>;
+                  })}
                 </div>
               </Fade>
 

@@ -70,7 +70,7 @@ function MyProjects() {
                       {proj?.name}
                     </h4>
                     <p style={{ fontSize: "15px" }}>
-                      {truncate(proj?.about, 130)}
+                      {truncate(proj?.about[0], 130)}
                     </p>
                     <div className="tags d-flex justify-content-start align-items-center flex-wrap gap-1">
                       {proj?.tech.slice(0, 5).map((t, i) => (

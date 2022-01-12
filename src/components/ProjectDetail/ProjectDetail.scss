@@ -5,7 +5,7 @@
     margin-bottom: 50px;
 
     .slick-slider {
-      height: 21em !important;
+      height: 25em !important;
     }
 
     .slick-dots {
@@ -23,7 +23,7 @@
     }
 
     .slick-next {
-      top: 150px;
+      top: 200px;
       right: 50px;
       z-index: 10;
     }
@@ -35,7 +35,7 @@
     }
 
     .slick-prev {
-      top: 150px;
+      top: 200px;
       left: 50px;
       z-index: 10;
     }
@@ -48,7 +48,7 @@
     .slick-slide {
       padding-top: 10px;
       transition: all 0.5s;
-      opacity: 0.2;
+      opacity: 0.15;
 
       div {
         outline: none !important;
@@ -61,32 +61,13 @@
       }
 
       .slide-lg {
-        width: 572px !important;
-        max-width: 572px !important;
+        width: 690px !important;
+        max-width: 690px !important;
       }
 
       .slide-sm {
-        width: 180px !important;
-        max-width: 180px !important;
-      }
-
-      .image__loader {
-        width: 572px !important;
-        height: 20em !important;
-        background: linear-gradient(0.25turn, transparent, #fff, transparent),
-          linear-gradient(#ddd, #ddd), linear-gradient(#ddd, #ddd),
-          linear-gradient(#ddd, #ddd);
-        background-color: #fff;
-        background-repeat: no-repeat;
-        background-size: 215px 220px, 215px 130px, 100px 15px, 150px 15px;
-        background-position: -215px 0, 0 0, 15px 150px, 15px 180px;
-        animation: loading 1.5s infinite;
-      }
-
-      @keyframes loading {
-        to {
-          background-position: 215px 0, 0 0, 15px 150px, 15px 180px;
-        }
+        width: 225px !important;
+        max-width: 225px !important;
       }
     }
     .slick-active.slick-center {
@@ -302,32 +283,11 @@
         .slick-slide {
           .slide-lg {
             width: 375px !important;
+            max-width: 375px !important;
           }
 
           .slide-sm {
             width: 130px !important;
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 450px) {
-  .detail {
-    .detail__slider {
-      .slick-slider {
-        height: 15em !important;
-
-        .slick-slide {
-          div {
-            max-width: 375px !important;
-          }
-
-          .slide-lg {
-            max-width: 375px !important;
-          }
-
-          .slide-sm {
             max-width: 130px !important;
           }
         }
