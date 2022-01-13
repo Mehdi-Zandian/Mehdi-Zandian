@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import AboutMe from "./AboutMe/AboutMe";
 import MyProjects from "./MyProjects/MyProjects";
+import MySkills from "./MySkills/MySkills";
 
 function Portfolio() {
   return (
@@ -8,7 +9,7 @@ function Portfolio() {
       <Header />
       <AboutMe />
       <MyProjects />
-      {/* Skills */}
+      <MySkills />
       {/* Contact Me */}
     </div>
   );

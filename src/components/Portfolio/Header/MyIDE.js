@@ -16,7 +16,7 @@ function MyIDE() {
 
         <div className="header__ideBody">
           <div className="header__ideLine">
-            <span className="ide__num me-3">1</span>
+            <span className="ide__num me-2">1</span>
             {"<"}
             <span className="ide__div">{"div"}</span>
             {">"}
@@ -24,7 +24,7 @@ function MyIDE() {
 
           <div className="header__ideLine">
             <span className="ide__num me-4">2</span>
-            {"<"}
+            {" <"}
             <span className="ide__div">{"span"}</span>
             {">"}
             HI THERE 👋 I'M
@@ -35,7 +35,7 @@ function MyIDE() {
 
           <div className="header__ideLine">
             <span className="ide__num me-4">3</span>
-            {"<"}
+            {" <"}
             <span className="ide__div">{"h1"}</span>
             {">"}
             <Typical
@@ -51,7 +51,7 @@ function MyIDE() {
 
           <div className="header__ideLine">
             <span className="ide__num me-4">4</span>
-            {"<"}
+            {" <"}
             <span className="ide__div">{"h6"}</span>
             {">"}
             FRONT-END WEB DEVELOPER
@@ -68,7 +68,7 @@ function MyIDE() {
 
           <div className="header__ideLine">
             <span className="ide__num me-4">5</span>
-            {"<"}
+            {" <"}
             <span className="ide__div">{"p"}</span>
             {">"}
           </div>
@@ -85,14 +85,14 @@ function MyIDE() {
 
           <div className="header__ideLine">
             <span className="ide__num me-4">8</span>
-            {"</"}
+            {" </"}
             <span className="ide__div">{"p"}</span>
             {">"}
           </div>
 
           <div className="header__ideLine">
             <span className="ide__num me-4">9</span>
-            {"<"}
+            {" <"}
             <span className="ide__div">{"button"}</span>
             {">"}
             Hire Me
@@ -102,7 +102,7 @@ function MyIDE() {
           </div>
 
           <div className="header__ideLine">
-            <span className="ide__num me-3">10</span>
+            <span className="ide__num me-2">10</span>
             {"</"}
             <span className="ide__div">{"div"}</span>
             {">"}
