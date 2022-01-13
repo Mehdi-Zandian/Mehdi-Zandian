@@ -35,7 +35,7 @@ function MyProjects() {
   };
 
   return (
-    <div className="myProj container">
+    <div id="projects" className="myProj container">
       <div className="d-flex justify-content-center mb-5">
         <Fade bottom cascade>
           <div>
@@ -48,7 +48,10 @@ function MyProjects() {
         </Fade>
       </div>
 
-      <div className="myProj__body d-flex flex-wrap justify-content-center gap-5">
+      <div
+        title="Click To See More"
+        className="myProj__body d-flex flex-wrap justify-content-center gap-5"
+      >
         {data.length != 0 ? (
           data.map((proj) => (
             <div

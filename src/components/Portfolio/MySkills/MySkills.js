@@ -29,7 +29,7 @@ function MySkills() {
   }, []);
 
   return (
-    <div className="skill container">
+    <div id="skills" className="skill container">
       <div className="d-flex justify-content-center mb-5">
         <Fade bottom cascade>
           <div>

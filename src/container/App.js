@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Footer from "../components/Footer/Footer";
 import ProjectDetail from "../components/ProjectDetail/ProjectDetail";
 // router
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,7 +19,7 @@ function App() {
           {/* 404 Page */}
         </Routes>
 
-        {/* Footer */}
+        <Footer />
       </Router>
     </div>
   );

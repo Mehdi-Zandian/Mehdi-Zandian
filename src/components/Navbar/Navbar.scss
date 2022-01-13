@@ -17,6 +17,11 @@
       border: 1px solid transparent;
       cursor: pointer;
 
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
       &:after {
         content: "";
         position: absolute;
@@ -39,6 +44,10 @@
       background: #0fb;
       border-radius: 30px;
       box-shadow: 0 0 7px transparent;
+
+      a {
+        color: #333 !important;
+      }
 
       &:after {
         width: 0;
