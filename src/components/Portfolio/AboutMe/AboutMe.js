@@ -1,5 +1,6 @@
 import React from "react";
 import WorkFlow from "./WorkFlow";
+import { HashLink as Link } from "react-router-hash-link";
 // animation
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
@@ -10,7 +11,10 @@ import me from "../../../assets/me/me.jpg";
 function AboutMe() {
   return (
     <>
-      <div className="aboutMe container d-flex flex-column flex-lg-row justify-content-center gap-5">
+      <div
+        id="about"
+        className="aboutMe container d-flex flex-column flex-lg-row justify-content-center gap-5"
+      >
         <Slide left>
           <div className="aboutMe__img">
             <img
@@ -52,7 +56,13 @@ function AboutMe() {
                 my hands on
               </p>
 
-              <button className="btn mt-4 border-none">My Projects</button>
+              <Link
+                title="Go To Projects"
+                className="text-decoration-none text-dark"
+                to="/#projects"
+              >
+                <button className="btn mt-4 border-none">My Projects</button>
+              </Link>
             </div>
           </div>
         </Fade>

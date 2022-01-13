@@ -134,9 +134,7 @@ function ProjectDetail() {
           </div>
         </div>
       ) : (
-        <div className="loader__wrapper w-100 d-flex justify-content-center align-items-center position-fixed top-0 start-0">
-          <span className="loader"></span>
-        </div>
+        <span className="loader"></span>
       )}
     </div>
   );

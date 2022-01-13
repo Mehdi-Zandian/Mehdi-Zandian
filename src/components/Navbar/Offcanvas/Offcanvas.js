@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 // animation
 import Fade from "react-reveal/Fade";
 // UI
@@ -49,26 +50,61 @@ function Offcanvas() {
         >
           <Fade left cascade when={show}>
             <ul className="nav__offcanvasList d-flex flex-column align-items-center list-unstyled w-100">
-              <li>
-                <span>01</span>
-                <span>Home</span>
-              </li>
-              <li>
-                <span>02</span>
-                <span>About</span>
-              </li>
-              <li>
-                <span>03</span>
-                <span>Projects</span>
-              </li>
-              <li>
-                <span>04</span>
-                <span>Skills</span>
-              </li>
-              <li className="nav__offcanvasActive">
-                <span>05</span>
-                <span>Contact Me</span>
-              </li>
+              <Link
+                onClick={() => setShow(false)}
+                data-bs-dismiss="offcanvas"
+                to="/#header"
+              >
+                <li>
+                  <span>01</span>
+                  <span>Home</span>
+                </li>
+              </Link>
+
+              <Link
+                onClick={() => setShow(false)}
+                data-bs-dismiss="offcanvas"
+                to="/#about"
+              >
+                <li>
+                  <span>02</span>
+                  <span>About</span>
+                </li>
+              </Link>
+
+              <Link
+                onClick={() => setShow(false)}
+                data-bs-dismiss="offcanvas"
+                to="/#projects"
+              >
+                <li>
+                  <span>03</span>
+                  <span>Projects</span>
+                </li>
+              </Link>
+
+              <Link
+                onClick={() => setShow(false)}
+                data-bs-dismiss="offcanvas"
+                to="/#skills"
+              >
+                <li>
+                  <span>04</span>
+                  <span>Skills</span>
+                </li>
+              </Link>
+
+              <Link
+                className="nav__offcanvasActive"
+                onClick={() => setShow(false)}
+                data-bs-dismiss="offcanvas"
+                to="/#contact"
+              >
+                <li>
+                  <span>05</span>
+                  <span>Contact Me</span>
+                </li>
+              </Link>
             </ul>
           </Fade>
         </div>
