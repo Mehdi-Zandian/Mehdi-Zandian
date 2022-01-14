@@ -11,9 +11,9 @@ function Navbar() {
     <div className="nav position-sticky top-0">
       <div className="container d-flex align-items-center justify-content-between">
         <Fade>
-          <Link to="/#header">
+          <a href="/">
             <img src={logo} className="nav__logo" alt="Logo" />
-          </Link>
+          </a>
         </Fade>
 
         <Fade>

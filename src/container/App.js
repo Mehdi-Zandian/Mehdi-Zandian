@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar/Navbar";
 import Portfolio from "../components/Portfolio/Portfolio";
-import Footer from "../components/Footer/Footer";
 import ProjectDetail from "../components/ProjectDetail/ProjectDetail";
 // router
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,8 +17,6 @@ function App() {
           <Route path="/detail/:id/" element={<ProjectDetail />} />
           {/* 404 Page */}
         </Routes>
-
-        <Footer />
       </Router>
     </div>
   );

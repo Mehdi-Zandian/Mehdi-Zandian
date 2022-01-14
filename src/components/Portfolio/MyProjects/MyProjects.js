@@ -48,10 +48,7 @@ function MyProjects() {
         </Fade>
       </div>
 
-      <div
-        title="Click To See More"
-        className="myProj__body d-flex flex-wrap justify-content-center gap-5"
-      >
+      <div className="myProj__body d-flex flex-wrap justify-content-center gap-5">
         {data.length != 0 ? (
           data.map((proj) => (
             <div
@@ -59,6 +56,7 @@ function MyProjects() {
               className="myProj__bodyItem shadow col-12 col-lg-5"
             >
               <Link
+                title="Click To See More"
                 to={`/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >

@@ -42,7 +42,12 @@ function ContactMe() {
               <div className="contact__ItemIcon rounded-circle p-3 me-4">
                 <MdEmail className="fs-3 text-dark" />
               </div>
-              <a href="mailto:mahdizandi81@gmail.com">mahdizandi81@gmail.com</a>
+              <a
+                style={{ fontSize: "15px" }}
+                href="mailto:zandianmehdi33@gmail.com"
+              >
+                zandianmehdi33@gmail.com
+              </a>
             </div>
             <div
               title="My WhatsApp Number"

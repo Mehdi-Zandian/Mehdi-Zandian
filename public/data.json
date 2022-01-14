@@ -60,7 +60,8 @@
         "TMDB-API",
         "Axios",
         "Bootstrap",
-        "SASS"
+        "SASS",
+        "BEM"
       ],
       "techPic": [
         "../dataAssets/techPics/react.png",
