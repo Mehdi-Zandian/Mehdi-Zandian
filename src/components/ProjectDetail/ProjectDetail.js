@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProjectSlider from "./ProjectSlider";
+import Footer from "../Footer/Footer";
 // animation
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
@@ -41,7 +42,7 @@ function ProjectDetail() {
   return (
     <div>
       {data.length !== 0 ? (
-        <div className="detail">
+        <div id="top" className="detail">
           <Fade bottom cascade>
             <div className="d-flex flex-column justify-content-center my-5">
               <div className="detail__header mx-auto d-flex align-items-start">
@@ -132,6 +133,8 @@ function ProjectDetail() {
               </div>
             </div>
           </div>
+
+          <Footer href={`/detail/${id}/#top`} />
         </div>
       ) : (
         <span className="loader"></span>

@@ -8,7 +8,7 @@ import { HiArrowCircleUp } from "react-icons/hi";
 import { FaTelegramPlane } from "react-icons/fa";
 import "./Footer.scss";
 
-function Footer() {
+function Footer({ href }) {
   return (
     <div className="footer w-100">
       <div className="footer__body w-100 d-flex flex-column justify-content-center text-center">
@@ -36,7 +36,7 @@ function Footer() {
           <Link
             title="Back To Top"
             className="text-decoration-none text-white shadow"
-            to="/#header"
+            to={href}
           >
             <HiArrowCircleUp className="text-center display-4" />
           </Link>
