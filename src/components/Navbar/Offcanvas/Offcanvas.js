@@ -55,10 +55,8 @@ function Offcanvas() {
                 data-bs-dismiss="offcanvas"
                 to="/#header"
               >
-                <li>
-                  <span>01</span>
-                  <span>Home</span>
-                </li>
+                <span>01</span>
+                <span>Home</span>
               </Link>
 
               <Link
@@ -66,10 +64,8 @@ function Offcanvas() {
                 data-bs-dismiss="offcanvas"
                 to="/#about"
               >
-                <li>
-                  <span>02</span>
-                  <span>About</span>
-                </li>
+                <span>02</span>
+                <span>About</span>
               </Link>
 
               <Link
@@ -77,10 +73,8 @@ function Offcanvas() {
                 data-bs-dismiss="offcanvas"
                 to="/#projects"
               >
-                <li>
-                  <span>03</span>
-                  <span>Projects</span>
-                </li>
+                <span>03</span>
+                <span>Projects</span>
               </Link>
 
               <Link
@@ -88,10 +82,8 @@ function Offcanvas() {
                 data-bs-dismiss="offcanvas"
                 to="/#skills"
               >
-                <li>
-                  <span>04</span>
-                  <span>Skills</span>
-                </li>
+                <span>04</span>
+                <span>Skills</span>
               </Link>
 
               <Link
@@ -100,10 +92,8 @@ function Offcanvas() {
                 data-bs-dismiss="offcanvas"
                 to="/#contact"
               >
-                <li>
-                  <span>05</span>
-                  <span>Contact Me</span>
-                </li>
+                <span>05</span>
+                <span>Contact Me</span>
               </Link>
             </ul>
           </Fade>
