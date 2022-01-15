@@ -9,6 +9,7 @@ function MySkills() {
   // fetch data from my local api
   const [data, setData] = useState([]);
   const getData = () => {
+    const controller = new AbortController();
     fetch(
       "skills.json",
 
@@ -17,12 +18,14 @@ function MySkills() {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
+        signal: controller.signal,
       }
     )
       .then((res) => {
         return res.json();
       })
-      .then((data) => setData(data?.data));
+      .then((data) => setData(data?.data))
+      .catch(() => controller.abort());
   };
   useEffect(() => {
     getData();
@@ -62,7 +65,7 @@ function MySkills() {
               );
             })
           ) : (
-            <span className="loader mx-auto"></span>
+            <span className="loader"></span>
           )}
         </div>
       </Flip>
