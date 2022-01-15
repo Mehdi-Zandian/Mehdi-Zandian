@@ -61,8 +61,8 @@
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
-    animation-fill-mode: both;
-    animation: bblFadInOut 1.8s infinite ease-in-out;
+    animation-fill-mode: both !important;
+    animation: bblFadInOut 1.8s infinite ease-in-out !important;
   }
   .loader {
     color: #0fb;
@@ -70,7 +70,7 @@
     position: relative;
     text-indent: -9999em;
     transform: translateZ(0);
-    animation-delay: -0.16s;
+    animation-delay: -0.16s !important;
   }
   .loader:before,
   .loader:after {
@@ -80,7 +80,7 @@
   }
   .loader:before {
     left: -3.5em;
-    animation-delay: -0.32s;
+    animation-delay: -0.32s !important;
   }
   .loader:after {
     left: 3.5em;
