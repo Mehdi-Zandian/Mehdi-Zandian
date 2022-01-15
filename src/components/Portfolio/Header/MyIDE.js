@@ -40,7 +40,7 @@ function MyIDE() {
             {">"}
             <Typical
               className="d-inline"
-              steps={["Mahdi Zandian", 3000, "A Developer", 2000]}
+              steps={[1000, "Mahdi Zandian", 3000, "A Developer", 2000]}
               loop={Infinity}
               wrapper="p"
             />

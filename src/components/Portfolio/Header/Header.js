@@ -23,7 +23,7 @@ function Header() {
 
             <h1 className="h1 fw-bold display-2 my-3 text-center">
               <Typical
-                steps={["Mahdi Zandian", 3000, "A Developer", 2000]}
+                steps={[1000, "Mahdi Zandian", 3000, "A Developer", 2000]}
                 loop={Infinity}
                 wrapper="p"
               />
