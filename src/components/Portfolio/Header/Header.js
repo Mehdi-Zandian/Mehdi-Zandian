@@ -39,9 +39,13 @@ function Header() {
               based in <span style={{ color: "#0fb" }}>IRAN, TEHRAN</span>.
             </p>
 
-            <Link className="text-decoration-none text-dark" to="/#contact">
-              <button className="header__btn btn">Hire Me</button>
-            </Link>
+            <a
+              href="dataAssets/Mahdi-Zandian.pdf"
+              download=""
+              className="header__btn btn text-decoration-none"
+            >
+              Download CV
+            </a>
           </div>
         </Fade>
 

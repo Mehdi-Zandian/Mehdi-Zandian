@@ -18,9 +18,9 @@
     border-radius: 25px;
     box-shadow: 0 0 7px transparent;
     transition: all 0.3s;
+    color: #333;
 
     &:hover {
-      color: #333;
       box-shadow: 0 0 7px #0fb;
     }
   }
