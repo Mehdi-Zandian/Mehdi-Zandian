@@ -21,6 +21,10 @@
       "percent": 40
     },
     {
+      "name": "Tailwind CSS",
+      "percent": 60
+    },
+    {
       "name": "Bootstrap",
       "percent": 90
     },
@@ -39,10 +43,6 @@
     {
       "name": "Git",
       "percent": 60
-    },
-    {
-      "name": "Adobe Photoshop",
-      "percent": 70
     },
     {
       "name": "English Language",

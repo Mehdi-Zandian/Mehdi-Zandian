@@ -28,7 +28,7 @@ function ContactMe() {
             <div className="contact__ItemIcon rounded-circle p-3 me-4">
               <MdLocationPin className="fs-3 text-dark" />
             </div>
-            <span>Iran, Tehran</span>
+            <span>Tehran, Iran</span>
           </div>
           <div
             title="My Email Address"
