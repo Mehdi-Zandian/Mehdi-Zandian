@@ -95,7 +95,7 @@ function MyIDE() {
             {" <"}
             <span className="ide__div">{"button"}</span>
             {">"}
-            Hire Me
+            Download CV
             {"</"}
             <span className="ide__div">{"button"}</span>
             {">"}
