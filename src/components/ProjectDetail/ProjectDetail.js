@@ -72,9 +72,11 @@ function ProjectDetail() {
               </Fade>
 
               <Zoom cascade>
-                <div className="detail__tags mx-auto d-flex flex-wrap justify-content-start gap-2 mb-5">
+                <div className="detail__tags mx-auto d-flex flex-wrap justify-content-start mb-5">
                   {data?.tech.map((t, i) => (
-                    <span key={i}>{t}</span>
+                    <span className="me-2 mb-2" key={i}>
+                      {t}
+                    </span>
                   ))}
                 </div>
               </Zoom>
@@ -88,10 +90,11 @@ function ProjectDetail() {
                         <span>Tech Stack :</span>
                       </h6>
                     </div>
-                    <div className="d-flex flex-wrap gap-2 align-items-center">
+                    <div className="d-flex flex-wrap align-items-center">
                       {data?.techPic.map((t, i) => {
                         return (
                           <img
+                            className="me-2 mb-1"
                             key={i}
                             style={{
                               width: "20px",
@@ -106,7 +109,7 @@ function ProjectDetail() {
                 </Fade>
 
                 <Fade>
-                  <div className="detail__live d-flex my-2">
+                  <div className="detail__live d-flex mb-2 mt-1">
                     <div className="d-flex align-items-center">
                       <GoFlame className="flame me-2" />
                       <span className="me-2">Live Website :</span>

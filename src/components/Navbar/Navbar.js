@@ -8,7 +8,7 @@ import logo from "../../assets/logo/logo.png";
 
 function Navbar() {
   return (
-    <div className="nav position-sticky top-0">
+    <div className="nav position-sticky start-0 top-0">
       <div className="container d-flex align-items-center justify-content-between">
         <Fade>
           <a href="/">

@@ -52,12 +52,12 @@ function MyProjects() {
         </Fade>
       </div>
 
-      <div className="myProj__body d-flex flex-wrap justify-content-center gap-5">
+      <div className="myProj__body d-flex flex-wrap justify-content-center">
         {data.length != 0 ? (
           data.map((proj) => (
             <div
               key={proj?.id}
-              className="myProj__bodyItem shadow col-12 col-lg-5"
+              className="myProj__bodyItem shadow col-12 col-lg-5 me-lg-5 mb-5"
             >
               <Link
                 title="Click To See More"
@@ -77,9 +77,11 @@ function MyProjects() {
                     <p style={{ fontSize: "15px" }}>
                       {truncate(proj?.about[0], 130)}
                     </p>
-                    <div className="tags d-flex justify-content-start align-items-center flex-wrap gap-1">
+                    <div className="tags d-flex justify-content-start align-items-center flex-wrap">
                       {proj?.tech.slice(0, 5).map((t, i) => (
-                        <span key={i}>{t}</span>
+                        <span className="me-1 mb-1" key={i}>
+                          {t}
+                        </span>
                       ))}
                       <span>...</span>
                     </div>

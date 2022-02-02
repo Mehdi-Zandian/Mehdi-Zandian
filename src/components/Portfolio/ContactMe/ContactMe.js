@@ -20,10 +20,10 @@ function ContactMe() {
           </p>
         </div>
 
-        <div className="contact__body mt-3 mb-4 d-flex flex-column flex-md-row justify-content-md-between gap-3">
+        <div className="contact__body mt-3 mb-4 d-flex flex-column flex-md-row justify-content-md-between">
           <div
             title="Where I Live"
-            className="contact__bodyItem d-flex align-items-center"
+            className="contact__bodyItem d-flex align-items-center mb-3"
           >
             <div className="contact__ItemIcon rounded-circle p-3 me-4">
               <MdLocationPin className="fs-3 text-dark" />
@@ -32,7 +32,7 @@ function ContactMe() {
           </div>
           <div
             title="My Email Address"
-            className="contact__bodyItem d-flex align-items-center"
+            className="contact__bodyItem d-flex align-items-center mb-3"
           >
             <div className="contact__ItemIcon rounded-circle p-3 me-4">
               <MdEmail className="fs-3 text-dark" />
@@ -46,7 +46,7 @@ function ContactMe() {
           </div>
           <div
             title="My WhatsApp Number"
-            className="contact__bodyItem d-flex align-items-center"
+            className="contact__bodyItem d-flex align-items-center mb-3"
           >
             <div className="contact__ItemIcon rounded-circle p-3 me-4">
               <BsWhatsapp className="fs-3 text-dark" />

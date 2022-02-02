@@ -13,7 +13,7 @@ function AboutMe() {
     <>
       <div
         id="about"
-        className="aboutMe container d-flex flex-column flex-lg-row justify-content-center gap-5"
+        className="aboutMe container d-flex flex-column flex-lg-row justify-content-center"
       >
         <Slide left>
           <div className="aboutMe__img">
@@ -27,8 +27,8 @@ function AboutMe() {
         </Slide>
 
         <Fade>
-          <div className="aboutMe__text">
-            <div className="aboutMe__textHeader d-flex align-items-start">
+          <div className="aboutMe__text mt-5 mt-lg-0 ms-lg-5">
+            <div className="aboutMe__textHeader mt-0 d-flex align-items-start">
               <h6>Who I am</h6>
               <span className="ms-2 mt-2"></span>
             </div>

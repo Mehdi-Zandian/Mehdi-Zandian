@@ -49,7 +49,7 @@ function MySkills() {
           {data?.length !== 0 ? (
             data.map((proj, i) => {
               return (
-                <div key={i} className="skill__bodyItem p-3">
+                <div key={i} className="skill__bodyItem p-3 mb-4">
                   <div className="d-flex justify-content-between mb-2 pe-1">
                     <span>{proj.name}</span>
                     <span>{proj.percent}%</span>

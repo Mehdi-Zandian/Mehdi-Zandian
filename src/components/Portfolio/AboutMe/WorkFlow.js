@@ -23,22 +23,22 @@ function WorkFlow() {
       </Fade>
 
       <Zoom cascade>
-        <div className="d-flex flex-wrap justify-content-center gap-4 mt-5">
-          <div className="workflow__item">
+        <div className="d-flex flex-wrap justify-content-center mt-5">
+          <div className="workflow__item mb-3 m-2">
             <img src={idea} alt="Work idea" />
             <h5>Discover</h5>
             <span>
               I conduct user research to identify the problem I want to solve.
             </span>
           </div>
-          <div className="workflow__item">
+          <div className="workflow__item mb-3 m-2">
             <img src={plan} alt="Work idea" />
             <h5>Define</h5>
             <span>
               I brainstorm possible design solutions to the identified problem.
             </span>
           </div>
-          <div className="workflow__item">
+          <div className="workflow__item mb-3 m-2">
             <img src={sketch} alt="Work idea" />
             <h5>Ideate</h5>
             <span>
@@ -46,14 +46,14 @@ function WorkFlow() {
               design.
             </span>
           </div>
-          <div className="workflow__item">
+          <div className="workflow__item mb-3 m-2">
             <img src={design} alt="Work idea" />
             <h5>Prototype</h5>
             <span>
               I create high fidelity design and prototype the screens.
             </span>
           </div>
-          <div className="workflow__item">
+          <div className="workflow__item mb-3 m-2">
             <img src={implement} alt="Work idea" />
             <h5>Implement</h5>
             <span>After designing, I deliver for implementation.</span>
