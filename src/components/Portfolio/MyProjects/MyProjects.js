@@ -64,7 +64,11 @@ function MyProjects() {
                 to={`/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >
-                <img src={`${proj?.banner}`} alt=" " />
+                <img
+                  className="lazyload blur-up"
+                  data-src={`${proj?.banner}`}
+                  alt=" "
+                />
                 <div className="myProj__itemInfo d-flex flex-column align-items-start justify-content-between p-3">
                   <div>
                     <h4 className="fw-bold d-flex align-items-center">

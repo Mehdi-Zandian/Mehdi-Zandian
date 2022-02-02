@@ -22,11 +22,12 @@ function ProjectSlider({ data }) {
           return (
             <div className="slide-lg" key={i} style={{ height: "100%" }}>
               <img
+                className="lazyload blur-up"
                 style={{
                   width: "100%",
                   height: "100%",
                 }}
-                src={pic}
+                data-src={pic}
               />
             </div>
           );
@@ -35,11 +36,12 @@ function ProjectSlider({ data }) {
           return (
             <div className="slide-sm" key={i} style={{ height: "100%" }}>
               <img
+                className="lazyload blur-up"
                 style={{
                   width: "100%",
                   height: "100%",
                 }}
-                src={pic}
+                data-src={pic}
               />
             </div>
           );

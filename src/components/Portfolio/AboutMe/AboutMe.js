@@ -18,9 +18,8 @@ function AboutMe() {
         <Slide left>
           <div className="aboutMe__img">
             <img
-              loading="lazy"
-              className="w-100"
-              src={me}
+              className="w-100 lazyload blur-up"
+              data-src={me}
               alt="Mehdi Zandian Picture"
             />
           </div>
