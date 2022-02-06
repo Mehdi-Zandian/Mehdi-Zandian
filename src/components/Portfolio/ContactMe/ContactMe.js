@@ -51,7 +51,7 @@ function ContactMe() {
             <div className="contact__ItemIcon rounded-circle p-3 me-4">
               <BsWhatsapp className="fs-3 text-dark" />
             </div>
-            <a href="tel:09374676477">09374676477</a>
+            <a href="tel:09374676477">09370472747</a>
           </div>
         </div>
       </div>
