@@ -29,6 +29,10 @@ function ProjectSlider({ data }) {
                 }}
                 data-src={pic}
               />
+
+              <div className="lazy-loader">
+                <span></span>
+              </div>
             </div>
           );
         })}
@@ -43,6 +47,10 @@ function ProjectSlider({ data }) {
                 }}
                 data-src={pic}
               />
+
+              <div className="lazy-loader">
+                <span></span>
+              </div>
             </div>
           );
         })}

@@ -7,6 +7,7 @@ import Fade from "react-reveal/Fade";
 // UI
 import "./AboutMe.scss";
 import me from "../../../assets/me/me.jpg";
+import meLQ from "../../../assets/me/me-lq.jpg";
 
 function AboutMe() {
   return (
@@ -19,9 +20,13 @@ function AboutMe() {
           <div className="aboutMe__img">
             <img
               className="w-100 lazyload blur-up"
+              src={meLQ}
               data-src={me}
               alt="Mehdi Zandian Picture"
             />
+            <div className="lazy-loader">
+              <span></span>
+            </div>
           </div>
         </Slide>
 

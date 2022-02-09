@@ -66,7 +66,8 @@ function MyProjects() {
               >
                 <img
                   className="lazyload blur-up"
-                  data-src={`${proj?.banner}`}
+                  src={`${proj?.banner[0]}`}
+                  data-src={`${proj?.banner[1]}`}
                   alt=" "
                 />
                 <div className="myProj__itemInfo d-flex flex-column align-items-start justify-content-between p-3">

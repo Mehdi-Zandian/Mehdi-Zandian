@@ -7,7 +7,10 @@
         "It is my Amazon Clone with customized features and UI. This Clone contains the Checkout page and Order List as well. Therefore, you can add your favorite products to the basket. Also, you can sign up by your google account to have a better experience on my Clone ✌. If you don't sign up/in, you won't be able to proceed with checkout. Inside Order List, you have access to the products you purchased recently.",
         "This React Project uses Fake Store API for fetching products from different categories and Context API to manage states as fast as possible. I  used Auth0 for authentication by google which, helped a lot with performance. For styling, I used Bootstarp5, SASS, and CSS Grid Layout, also I used CSS BEM naming convention standard for faster styling⚡."
       ],
-      "banner": "dataAssets/projects/amazon/lg/S1.jpg",
+      "banner": [
+        "dataAssets/projects/amazon/lg/amazon-lq.jpg",
+        "dataAssets/projects/amazon/lg/S1.jpg"
+      ],
       "tech": [
         "ReactJS",
         "Context-API",
@@ -52,7 +55,10 @@
         "My clone recommends movies in different genres like Comedy, Horror, Action, and even Netflix Originals 👀. Wait for a second. That is not all. you can watch trailers of movies by clicking on the poster and play button 🤩. Just make sure you have a stable/VPN connection.",
         "I used Redux Core, a powerful state manager, and Firebase for authentication by Email Address. Movies of the clone, are provided by the great TMDB API. Fetching the Youtube Trailer, managing tons of genres and movies from API were some of the huge challenges that I experienced 👨‍💻."
       ],
-      "banner": "dataAssets/projects/netflix/lg/S3.jpg",
+      "banner": [
+        "dataAssets/projects/netflix/lg/netflix-lq.jpg",
+        "dataAssets/projects/netflix/lg/S3.jpg"
+      ],
       "tech": [
         "ReactJS",
         "Redux",
@@ -97,7 +103,10 @@
         "Other brands page, has the list of all brands and available phones which you can change the order of the list by filters on the top (price low, price high, name of the brand, etc). Also, you can click on the sample button to see a sample detail of one phone. Compare page is my favorite one, where you can compare two different phones specs 🔥. There are loads of other features that you must see yourself.",
         "Mobile Tech is built with Javascript Vanilla 🤯. It was genuinely challenging for me as my first project. Prior to Mobile Tech, I'd had no experience in handling a big project individually but you see I could make it through 😁. I used pure CSS and SASS to style this beautiful website. I made a Local JSON myself to access the data of phones."
       ],
-      "banner": "dataAssets/projects/mobile-tech/lg/S4.jpg",
+      "banner": [
+        "dataAssets/projects/mobile-tech/lg/mobile-tech-lq.jpg",
+        "dataAssets/projects/mobile-tech/lg/S4.jpg"
+      ],
       "tech": ["Javascript", "SASS", "HTML", "CSS", "Local-JSON"],
       "techPic": [
         "../dataAssets/techPics/js.png",
