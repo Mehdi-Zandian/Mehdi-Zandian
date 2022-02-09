@@ -24,9 +24,6 @@ function AboutMe() {
               data-src={me}
               alt="Mehdi Zandian Picture"
             />
-            <div className="lazy-loader">
-              <span></span>
-            </div>
           </div>
         </Slide>
 
