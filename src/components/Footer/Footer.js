@@ -2,7 +2,7 @@ import { HashLink as Link } from "react-router-hash-link";
 // UI
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { HiArrowCircleUp } from "react-icons/hi";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane, FaLinkedinIn } from "react-icons/fa";
 import "./Footer.scss";
 
 function Footer({ href }) {
@@ -30,6 +30,13 @@ function Footer({ href }) {
             href="https://t.me/MehdiZandi"
           >
             <FaTelegramPlane />
+          </a>
+          <a
+            target="_blank"
+            title="My LinkedIn Account"
+            href="https://www.linkedin.com/in/mahdi-zandian-4b75b3215"
+          >
+            <FaLinkedinIn />
           </a>
         </div>
 

@@ -105,8 +105,13 @@
         }
 
         &:hover {
-          button:after {
+          .others:after {
             content: "More Detail";
+            opacity: 1;
+            width: 130px;
+          }
+          .current:after {
+            content: "See the Code";
             opacity: 1;
             width: 130px;
           }

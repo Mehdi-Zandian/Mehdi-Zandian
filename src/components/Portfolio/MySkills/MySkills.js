@@ -1,36 +1,12 @@
-import { useEffect, useState } from "react";
 // animation
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 // UI
 import "./MySkill.scss";
+// data
+import data from "../../../data/skills";
 
 function MySkills() {
-  // fetch data from my local api
-  const [data, setData] = useState([]);
-  const getData = () => {
-    const controller = new AbortController();
-    fetch(
-      "skills.json",
-
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        signal: controller.signal,
-      }
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => setData(data?.data))
-      .catch(() => controller.abort());
-  };
-  useEffect(() => {
-    getData();
-  }, []);
-
   return (
     <div id="skills" className="skill container">
       <div className="d-flex justify-content-center mb-5">

@@ -1,8 +1,7 @@
 import React from "react";
-import WorkFlow from "./WorkFlow";
+// import WorkFlow from "./WorkFlow";
 import { HashLink as Link } from "react-router-hash-link";
 // animation
-import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 // UI
 import "./AboutMe.scss";
@@ -16,7 +15,7 @@ function AboutMe() {
         id="about"
         className="aboutMe container d-flex flex-column flex-lg-row justify-content-center"
       >
-        <Slide left>
+        <Fade>
           <div className="aboutMe__img">
             <img
               className="w-100 lazyload blur-up"
@@ -25,7 +24,7 @@ function AboutMe() {
               alt="Mehdi Zandian Picture"
             />
           </div>
-        </Slide>
+        </Fade>
 
         <Fade>
           <div className="aboutMe__text mt-5 mt-lg-0 ms-lg-5">
@@ -41,8 +40,8 @@ function AboutMe() {
                 I’m Mahdi Zandian, a front-end web developer and designer based
                 in <span style={{ color: "#0fb" }}>Iran, Tehran</span>. I've
                 been building stuff on the web for the last 2 years, working
-                with various frameworks and libraries. My focus is on creating
-                engaging, accessible and performant interfaces for people.
+                with various frameworks and libraries such as React JS. Also,
+                I'm very passionate about JavaScript and its technologies.
               </p>
               <p>
                 Currently, I am a student of Software engineering at {""}
@@ -51,11 +50,7 @@ function AboutMe() {
                 </span>{" "}
                 for my Associate degree
               </p>
-              <p>
-                Being a diligent, hardworking and result oriented developer, I
-                always work towards achieving best result on each project I lay
-                my hands on
-              </p>
+              <p>My main focus is on building fast and reliable web apps.</p>
 
               <Link
                 title="Go To Projects"
@@ -69,7 +64,7 @@ function AboutMe() {
         </Fade>
       </div>
 
-      <WorkFlow />
+      {/* <WorkFlow /> */}
     </>
   );
 }

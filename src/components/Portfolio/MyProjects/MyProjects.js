@@ -1,38 +1,13 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // animation
 import Fade from "react-reveal/Fade";
 // UI
 import "./MyProject.scss";
 import { FaInfo, FaCheck } from "react-icons/fa";
+// data
+import data from "../../../data/data";
 
 function MyProjects() {
-  // fetch data from my local api
-  const [data, setData] = useState([]);
-  const getData = () => {
-    const controller = new AbortController();
-    fetch(
-      "data.json",
-
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-
-        signal: controller.signal,
-      }
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => setData(data?.data))
-      .catch(() => controller.abort());
-  };
-  useEffect(() => {
-    getData();
-  }, []);
-
   // make long descriptions short
   const truncate = (text, num) => {
     return text.length > num ? text.substr(0, num - 1) + " ..." : text;
@@ -56,12 +31,20 @@ function MyProjects() {
         {data.length != 0 ? (
           data.map((proj) => (
             <div
+              onClick={() =>
+                proj?.id === "1" &&
+                window.open("https://github.com/Mehdi-Zandian/Mehdi-Zandian")
+              }
               key={proj?.id}
               className="myProj__bodyItem shadow col-12 col-lg-5 me-lg-5 mb-5"
             >
               <Link
-                title="Click To See More"
-                to={`/detail/${proj?.id}`}
+                title={
+                  proj?.id === "1"
+                    ? "Click To See the Code"
+                    : "Click To See More"
+                }
+                to={proj?.id !== "1" && `/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >
                 <img
@@ -92,9 +75,15 @@ function MyProjects() {
                     </div>
                   </div>
 
-                  <button className="d-flex align-items-center">
-                    <FaInfo />
-                  </button>
+                  {proj?.id === "1" ? (
+                    <button className="current d-flex align-items-center">
+                      <FaInfo />
+                    </button>
+                  ) : (
+                    <button className="others d-flex align-items-center">
+                      <FaInfo />
+                    </button>
+                  )}
                 </div>
               </Link>
             </div>

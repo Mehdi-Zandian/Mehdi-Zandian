@@ -10,38 +10,20 @@ import "./ProjectDetail.scss";
 import { FaTools, FaGithub } from "react-icons/fa";
 import { GoFlame } from "react-icons/go";
 import { CgExternal } from "react-icons/cg";
+// data
+import data from "../../data/data";
 
 function ProjectDetail() {
   // id of each project
   const { id } = useParams();
-
-  // fetch data from my local api
-  const [data, setData] = useState([]);
-  const getData = () => {
-    fetch(
-      "../data.json",
-
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      }
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) =>
-        data?.data.find((proj) => (proj?.id === id ? setData(proj) : null))
-      );
-  };
+  const [mainData, setData] = useState([]);
   useEffect(() => {
-    getData();
+    data.find((proj) => (proj?.id === id ? setData(proj) : null));
   }, []);
 
   return (
     <div>
-      {data.length !== 0 ? (
+      {mainData.length !== 0 ? (
         <div id="top" className="detail">
           <Fade bottom cascade>
             <div className="d-flex flex-column justify-content-center my-5">
@@ -49,12 +31,14 @@ function ProjectDetail() {
                 <h6>About Project</h6>
                 <span className="ms-2 mt-2"></span>
               </div>
-              <h3 className="mt-2 mx-auto fw-bolder">{data?.name} Website</h3>
+              <h3 className="mt-2 mx-auto fw-bolder">
+                {mainData?.name} Website
+              </h3>
             </div>
           </Fade>
 
           <div>
-            <ProjectSlider data={data} />
+            <ProjectSlider data={mainData} />
 
             <div
               style={{
@@ -65,7 +49,7 @@ function ProjectDetail() {
             >
               <Fade>
                 <div className="detail__about">
-                  {data?.about.map((para, i) => {
+                  {mainData?.about.map((para, i) => {
                     return <p key={i}>{para}</p>;
                   })}
                 </div>
@@ -73,7 +57,7 @@ function ProjectDetail() {
 
               <Zoom cascade>
                 <div className="detail__tags mx-auto d-flex flex-wrap justify-content-start mb-5">
-                  {data?.tech.map((t, i) => (
+                  {mainData?.tech.map((t, i) => (
                     <span className="me-2 mb-2" key={i}>
                       {t}
                     </span>
@@ -91,7 +75,7 @@ function ProjectDetail() {
                       </h6>
                     </div>
                     <div className="d-flex flex-wrap align-items-center">
-                      {data?.techPic.map((t, i) => {
+                      {mainData?.techPic.map((t, i) => {
                         return (
                           <img
                             className="me-2 mb-1"
@@ -114,8 +98,8 @@ function ProjectDetail() {
                       <GoFlame className="flame me-2" />
                       <span className="me-2">Live Website :</span>
                     </div>
-                    <a target="_blank" href={data?.links[0]}>
-                      {data?.name}
+                    <a target="_blank" href={mainData?.links[0]}>
+                      {mainData?.name}
                       <CgExternal />
                     </a>
                   </div>
@@ -127,7 +111,7 @@ function ProjectDetail() {
                       <FaGithub className="github me-2" />
                       <span className="me-2">Github Link :</span>
                     </div>
-                    <a target="_blank" href={data?.links[1]}>
+                    <a target="_blank" href={mainData?.links[1]}>
                       Github Link
                       <CgExternal />
                     </a>
