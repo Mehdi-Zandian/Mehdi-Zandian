@@ -1,18 +1,6 @@
 const data = [
   {
     id: "1",
-    name: "My Portfolio (code)",
-    about: [
-      "The very website you're watching. My skills, projects, and contact ways.",
-    ],
-    banner: [
-      "dataAssets/projects/portfolio/1.jpg",
-      "dataAssets/projects/portfolio/1.jpg",
-    ],
-    tech: ["ReactJS", "React-Slick", "Bootstrap", "SASS", "BEM"],
-  },
-  {
-    id: "2",
     name: "Amazon Clone",
     about: [
       "It is my Amazon Clone with customized features and UI. This Clone contains the Checkout page and Order List as well. Therefore, you can add your favorite products to the basket. Also, you can sign up by your google account to have a better experience on my Clone ✌. If you don't sign up/in, you won't be able to proceed with checkout. Inside Order List, you have access to the products you purchased recently.",
@@ -59,7 +47,7 @@ const data = [
     ],
   },
   {
-    id: "3",
+    id: "2",
     name: "Netflix Clone",
     about: [
       "It is an exciting clone of the huge Netflix app. Firstly, you face the welcome page, and then you need to sign up by your Email Address if you wish. Otherwise, you can skip it and continue the journey. The landing page has a random background of movie posters which changes on every reload. Also, it provides you with some information about the movie such as IMDB Rate, Summery, Play Trailer, and so on.",
@@ -107,7 +95,7 @@ const data = [
     ],
   },
   {
-    id: "4",
+    id: "3",
     name: "Mobile-Tech Shop",
     about: [
       "Mobile Tech project is a mobile phone shop website that owns many features similar to official websites of mobile brands. This website provides features like New Release, Top Selling, List of all brands and available phones, and Comparing phones specs",
@@ -145,6 +133,18 @@ const data = [
       "https://mobile-tech-mehdi-zandian.vercel.app/",
       "https://github.com/Mehdi-Zandian/mobile-tech",
     ],
+  },
+  {
+    id: "4",
+    name: "My Portfolio (only code)",
+    about: [
+      "The current website you're watching. My skills, projects, and contact info.",
+    ],
+    banner: [
+      "dataAssets/projects/portfolio/1.jpg",
+      "dataAssets/projects/portfolio/1.jpg",
+    ],
+    tech: ["ReactJS", "React-Slick", "Bootstrap", "SASS", "BEM"],
   },
 ];
 

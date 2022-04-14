@@ -109,11 +109,13 @@
             content: "More Detail";
             opacity: 1;
             width: 130px;
+            overflow: hidden;
           }
           .current:after {
             content: "See the Code";
             opacity: 1;
             width: 130px;
+            overflow: hidden;
           }
           .tags {
             span {
@@ -182,9 +184,14 @@
           }
 
           button:after {
-            content: "More Detail" !important;
             width: 120px !important;
             opacity: 1 !important;
+          }
+          .others:after {
+            content: "More Detail" !important;
+          }
+          .current:after {
+            content: "See the Code" !important;
           }
         }
       }

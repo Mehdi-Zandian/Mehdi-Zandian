@@ -32,7 +32,7 @@ function MyProjects() {
           data.map((proj) => (
             <div
               onClick={() =>
-                proj?.id === "1" &&
+                proj?.id === "4" &&
                 window.open("https://github.com/Mehdi-Zandian/Mehdi-Zandian")
               }
               key={proj?.id}
@@ -40,7 +40,7 @@ function MyProjects() {
             >
               <Link
                 title={
-                  proj?.id === "1"
+                  proj?.id === "4"
                     ? "Click To See the Code"
                     : "Click To See More"
                 }
@@ -75,7 +75,7 @@ function MyProjects() {
                     </div>
                   </div>
 
-                  {proj?.id === "1" ? (
+                  {proj?.id === "4" ? (
                     <button className="current d-flex align-items-center">
                       <FaInfo />
                     </button>
