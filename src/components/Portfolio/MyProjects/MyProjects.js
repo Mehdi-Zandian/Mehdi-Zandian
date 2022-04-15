@@ -44,7 +44,7 @@ function MyProjects() {
                     ? "Click To See the Code"
                     : "Click To See More"
                 }
-                to={proj?.id !== "1" && `/detail/${proj?.id}`}
+                to={proj?.id !== "4" && `/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >
                 <img
