@@ -35,22 +35,28 @@ function AboutMe() {
 
             <h3 className="fw-bold my-3">About Me</h3>
 
-            <div className="aboutMe__body text-start">
+            <div className="aboutMe__body">
               <p>
-                I’m Mahdi Zandian, a front-end web developer and designer based
-                in <span style={{ color: "#0fb" }}>Iran, Tehran</span>. I've
-                been building stuff on the web for the last 2 years, working
-                with various frameworks and libraries such as React JS. Also,
-                I'm very passionate about JavaScript and its technologies.
+                Hello, I am Mahdi Zandian. I have 2 years of experience in
+                learning and working in web development. During this time, I
+                have worked with powerful technologies such as{" "}
+                <span style={{ color: "#0fb" }}>React JS</span>,{" "}
+                <span style={{ color: "#0fb" }}>Redux</span>,{" "}
+                <span style={{ color: "#0fb" }}>Tailwind</span>, and{" "}
+                <span style={{ color: "#0fb" }}>Webpack</span>. I am interested
+                in teamwork in a friendly environment and always strive for deep
+                learning and updating my skills. As a programmer, I always aim
+                for personal growth, problem-solving abilities, and effective
+                communication. I am committed to being creative in my work and
+                delivering my best.
               </p>
               <p>
                 Currently, I am a student of Software engineering at {""}
                 <span style={{ color: "#0fb" }}>
                   Shamsipour Technical College
                 </span>{" "}
-                for my Associate degree
+                for my Associate degree.
               </p>
-              <p>My main focus is on building fast and reliable web apps.</p>
 
               <Link
                 title="Go To Projects"

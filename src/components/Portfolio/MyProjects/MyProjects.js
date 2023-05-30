@@ -22,29 +22,32 @@ function MyProjects() {
               My Portfolio
               <span className="ms-2"></span>
             </div>
-            <h5 className="mt-3 fw-bold">My Projects</h5>
+            <h5 className="mt-3 fw-bold">My Latest Projects</h5>
           </div>
         </Fade>
       </div>
 
       <div className="myProj__body d-flex flex-wrap justify-content-center">
-        {data.length != 0 ? (
+        {data.length !== 0 ? (
           data.map((proj) => (
             <div
-              onClick={() =>
-                proj?.id === "4" &&
-                window.open("https://github.com/Mehdi-Zandian/Mehdi-Zandian")
-              }
+              onClick={() => {
+                if (proj?.name !== "Amazon Clone" && proj?.id < data.length) {
+                  window.open(proj.links[0]);
+                } else if (proj?.id === `${data?.length}`) {
+                  window.open("https://github.com/Mehdi-Zandian/Mehdi-Zandian");
+                }
+              }}
               key={proj?.id}
               className="myProj__bodyItem shadow col-12 col-lg-5 me-lg-5 mb-5"
             >
               <Link
                 title={
-                  proj?.id === "4"
+                  proj?.id === `${data.length}`
                     ? "Click To See the Code"
                     : "Click To See More"
                 }
-                to={proj?.id !== "4" && `/detail/${proj?.id}`}
+                to={proj?.id === "1" && `/detail/${proj?.id}`}
                 className="text-decoration-none text-white"
               >
                 <img
@@ -75,7 +78,7 @@ function MyProjects() {
                     </div>
                   </div>
 
-                  {proj?.id === "4" ? (
+                  {proj?.id === `${data.length}` ? (
                     <button className="current d-flex align-items-center">
                       <FaInfo />
                     </button>

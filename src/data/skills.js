@@ -1,14 +1,18 @@
 const data = [
   {
-    name: "Javascript",
-    percent: 80,
-  },
-  {
     name: "React JS",
     percent: 80,
   },
   {
+    name: "React Native",
+    percent: 40,
+  },
+  {
     name: "Redux",
+    percent: 70,
+  },
+  {
+    name: "Webpack",
     percent: 70,
   },
   {
@@ -16,12 +20,12 @@ const data = [
     percent: 80,
   },
   {
-    name: "Webpack",
-    percent: 40,
+    name: "Material UI",
+    percent: 60,
   },
   {
     name: "Tailwind CSS",
-    percent: 60,
+    percent: 90,
   },
   {
     name: "Bootstrap",
@@ -31,22 +35,26 @@ const data = [
     name: "SASS",
     percent: 90,
   },
-  {
-    name: "HTML5",
-    percent: 90,
-  },
-  {
-    name: "CSS3",
-    percent: 90,
-  },
-  {
-    name: "Git",
-    percent: 60,
-  },
-  {
-    name: "English Language",
-    percent: 90,
-  },
 ];
 
 export default data;
+// {
+//   name: "English Language",
+//   percent: 90,
+// },
+// {
+//   name: "Javascript",
+//   percent: 80,
+// },
+// {
+//   name: "HTML5",
+//   percent: 90,
+// },
+// {
+//   name: "CSS3",
+//   percent: 90,
+// },
+// {
+//   name: "Git",
+//   percent: 60,
+// },

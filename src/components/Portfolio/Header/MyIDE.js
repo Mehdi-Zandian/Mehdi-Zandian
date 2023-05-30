@@ -75,12 +75,12 @@ function MyIDE() {
 
           <div className="header__ideLine ">
             <span className="ide__num ide__numCondition me-5">6</span>
-            I’m a professional Web Developer with front end
+            I'm a Front End developer who is passionate about
           </div>
 
           <div className="header__ideLine ">
             <span className="ide__num ide__numCondition me-5">7</span>
-            development skills based in IRAN, TEHRAN.
+            JavaScript technologies, based in IRAN, TEHRAN.
           </div>
 
           <div className="header__ideLine">
@@ -109,7 +109,7 @@ function MyIDE() {
           </div>
 
           <small className="text-muted">
-            {"* Believe me , It's not that easy :)"}
+            {"* Trust me , It's not that easy :)"}
           </small>
         </div>
       </div>

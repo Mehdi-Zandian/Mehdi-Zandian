@@ -35,12 +35,13 @@ function Header() {
             </h6>
 
             <p className="my-4 text-center text-lg-start col-10 col-md-6 col-lg-7">
-              I’m a professional Web Developer with front end development skills
-              based in <span style={{ color: "#0fb" }}>IRAN, TEHRAN</span>.
+              I'm a Front End developer who is passionate about JavaScript
+              technologies, based in{" "}
+              <span style={{ color: "#0fb" }}>IRAN, TEHRAN</span>.
             </p>
 
             <a
-              href="dataAssets/Mahdi-Zandian.pdf"
+              href="dataAssets/Mahdi-Zandian-Persian.pdf"
               download=""
               className="header__btn btn text-decoration-none"
             >
