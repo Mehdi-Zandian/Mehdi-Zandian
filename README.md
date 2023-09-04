@@ -1,11 +1,15 @@
-# Mehd Zandian
+# Mehdi Zandian
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-royalblue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahdi-zandian-4b75b3215)
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=telegram&logoColor=white)](https://t.me/MehdiZandi)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-darkred?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/_mehdizandi/)
 [![Portfolio](https://img.shields.io/badge/-MyPortfolio-grey?style=flat-square&logo=vercel&logoColor=white)](https://mehdi-zandian.vercel.app/)
 
 ## Hi 👋, 
-I'm Mehdi Zandian, a Front End developer 👨‍💻 who is passionate about JavaScript technologies. 
+I'm Mehdi Zandian, a front-end developer 👨‍💻 who is passionate about JavaScript technologies. 
+
+
+[![Mehdi Zandian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mehdi-Zandian&show_icons=true&theme=tokyonight&count_private=true&line_height=40)](https://github.com/Mehdi-Zandian)
+[![Mehdi Zandian's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mehdi-Zandian&langs_count=5&theme=tokyonight&exclude_repo=SocketCpp,alirezakeshvari.github.io,DeveloperSite)](https://github.com/Mehdi-Zandian)
+
 
 ### Technologies:
 <div style="display: inline_block"><br>
