@@ -4,7 +4,7 @@
 [![Portfolio](https://img.shields.io/badge/-MyPortfolio-grey?style=flat-square&logo=vercel&logoColor=white)](https://mehdi-zandian.vercel.app/)
 
 ## Hi 👋, 
-I'm Mehdi Zandian, a front-end developer 👨‍💻 who is passionate about JavaScript technologies. 
+I'm Mehdi Zandian, a Web developer 👨‍💻 who is passionate about JavaScript technologies. 
 
 
 [![Mehdi Zandian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mehdi-Zandian&show_icons=true&theme=tokyonight&count_private=true&line_height=40)](https://github.com/Mehdi-Zandian)
