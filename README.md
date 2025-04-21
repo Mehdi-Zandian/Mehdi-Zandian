@@ -6,19 +6,15 @@
 ## 🔎 About
 I'm Mehdi Zandian, a Web developer 👨‍💻 who is passionate about JavaScript technologies. 
 
-
-[![Mehdi Zandian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mehdi-Zandian&show_icons=true&theme=tokyonight&count_private=true&line_height=40)](https://github.com/Mehdi-Zandian)
-[![Mehdi Zandian's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mehdi-Zandian&langs_count=5&theme=tokyonight&exclude_repo=SocketCpp,alirezakeshvari.github.io,DeveloperSite)](https://github.com/Mehdi-Zandian)
-
-
-### Technologies:
 <div style="display: inline_block"><br>
   <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"></code>
   <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"></code>
   <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"></code>
-  <code><img height="25" src="https://www.svgrepo.com/show/374167/vite.svg"></code>
-  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"></code>  
   <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"></code>
-  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"></code>
-  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/antdesign/antdesign-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"></code>
+  <code><img height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"></code>
 </div>
